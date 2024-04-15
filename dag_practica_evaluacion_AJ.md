@@ -61,7 +61,13 @@ https://github.com/ulisesojeda/master_docs/blob/master/airflow_install/airflow_i
       ```
       \q
       ```
-   
+
+   - Para borrar los registros de la tabla o la tabla completa [Opcional]:
+      ```
+      delete from table_tweets;
+      drop table table_tweets;
+      ```
+
    - Para salir del contenedor ejecutar:
       ```
       exit
